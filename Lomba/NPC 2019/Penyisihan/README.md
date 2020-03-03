@@ -33,12 +33,12 @@ Keluarkan hasil operasi angka keren.
 8 
 ```
 
-Contoh Keluaran 
+#### Contoh Keluaran 
 ```c
 15 
 ```
 
-Batasan 
+#### Batasan 
 1 ≤ Ai ≤ 10^9 \
 2 ≤  N ≤ 10^6
 
