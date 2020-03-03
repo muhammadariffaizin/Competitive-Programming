@@ -1,9 +1,67 @@
 # Soal Warm Up NLC 2019
 ## Daftar Isi
-- [Closest Greatest Element](#closest-greatest-element)
+- [Closest Greater Element](#closest-greater-element)
 - [Dari Kecil ke Besar](#dari-kecil-ke-besar)
 - [Jodoh](#jodoh)
 - [Kotak Kartu Elsi](#kotak-kartu-elsi)
+
+## Closest Greater Element 
+| Time Limit | Memory Limit |
+|---|:---|
+| 1 seconds	| 64 MB |
+
+#### Deskripsi 
+Diberikan dua array integer A dan B. Buatlah array C, seluruh elemen C terdiri dari elemen array A, sedimikian sehingga C[i] elemen terkecil yang lebih besar dari B[i]. Jika tidak ada elemen A yang lebih besar dari B[i] maka C[i] = -1. Dapat dipastikan size array A, B, dan C sama. 
+ 
+#### Format Masukan 
+Terdiri dari tiga baris. Baris pertama berisi sebuah bilangan bulat positif N yang menyatakan size array. Baris kedua berisi elemen array. Baris ketiga berisi elemen array B. 
+ 
+#### Format Keluaran 
+N buah bilangan bulat yang menyatakan elemen-elemen array C, dipisahkan oleh spasi. 
+ 
+#### Contoh Masukan 
+```c
+5 
+2 6 5 7 0 
+1 3 2 5 8 
+```
+
+#### Contoh Keluaran 
+```c
+2 5 5 6 -1 
+```
+ 
+#### Batasan 
+1 ≤ N ≤ 10^4 \
+1 ≤ Ai, Bi ≤ 10^9 
+
+## Dari Kecil ke Besar 
+| Time Limit | Memory Limit |
+|---|:---|
+| 1 seconds	| 256 MB |
+
+#### Deskripsi 
+Di awal tahun 2018 ini, Andi yang masih duduk di bangku kelas 9 SMP di sebuah sekolah negeri di pulau Madura mendapat tantangan dari temennya sendiri agar bisa mengubah huruf alphabet dari a sampai z, jika awalnya huruf kecil maka  di ubah ke huruf balok atau huruf kapital, demikian juga sebaliknya jika awalnya huruf kapital maka harus di ubah ke huruf kecil dengan menggunakan cara selain SHIFT + huruf alphabet (untuk kecil ke kapital) dan SHIFT + F3 (untuk kapital ke kecil). Sehingga dia terpikir untuk menggunakan bahasa pemrograman C++, tapi dia belum mengetahui cara melakukan hal tersebut. Sekarang tugasmu adalah membantu Andi untuk menyelesaikan tantangannya tersebut. 
+ 
+#### Format Masukan 
+Masukan berisi satu baris yang terdiri dari 2 variabel yaitu K dan B yang dipisah dengan spasi. Variable K sendiri merupakan sebuah huruf kecil (a < K  < z), sementara B merupakan sebuah huruf kapital (A < B  < Z). 
+ 
+#### Format Keluaran 
+Keluaran berada dalam satu baris yang berupa huruf kapital dan huruf kecil, dengan format keluaran“/ huruf kecil huruf kapital \”. 
+
+#### Contoh Masukan 
+```c
+b G 
+```
+ 
+#### Contoh Keluaran 
+```c
+/ g B \ 
+```
+ 
+#### Batasan 
+a ≤ K  ≤ z \
+A ≤ B  ≤ Z 
 
 ## Jodoh 
 | Time Limit | Memory Limit |
@@ -43,65 +101,7 @@ Sebuah baris berisi sebuah bilangan yang menyatakan jumlah pasangan berjodoh men
  
 #### Batasan 
 1 ≤ M ≤ 100 \
-1 ≤ N ≤ 104 
-
-## Dari Kecil Menjadi Besar 
-| Time Limit | Memory Limit |
-|---|:---|
-| 1 seconds	| 256 MB |
-
-#### Deskripsi 
-Di awal tahun 2018 ini, Andi yang masih duduk di bangku kelas 9 SMP di sebuah sekolah negeri di pulau Madura mendapat tantangan dari temennya sendiri agar bisa mengubah huruf alphabet dari a sampai z, jika awalnya huruf kecil maka  di ubah ke huruf balok atau huruf kapital, demikian juga sebaliknya jika awalnya huruf kapital maka harus di ubah ke huruf kecil dengan menggunakan cara selain SHIFT + huruf alphabet (untuk kecil ke kapital) dan SHIFT + F3 (untuk kapital ke kecil). Sehingga dia terpikir untuk menggunakan bahasa pemrograman C++, tapi dia belum mengetahui cara melakukan hal tersebut. Sekarang tugasmu adalah membantu Andi untuk menyelesaikan tantangannya tersebut. 
- 
-#### Format Masukan 
-Masukan berisi satu baris yang terdiri dari 2 variabel yaitu K dan B yang dipisah dengan spasi. Variable K sendiri merupakan sebuah huruf kecil (a < K  < z), sementara B merupakan sebuah huruf kapital (A < B  < Z). 
- 
-#### Format Keluaran 
-Keluaran berada dalam satu baris yang berupa huruf kapital dan huruf kecil, dengan format keluaran“/ huruf kecil huruf kapital \”. 
-
-#### Contoh Masukan 
-```c
-b G 
-```
- 
-#### Contoh Keluaran 
-```c
-/ g B \ 
-```
- 
-#### Batasan 
-a ≤ K  ≤ z \
-A ≤ B  ≤ Z 
-
-## Closest Greater Element 
-| Time Limit | Memory Limit |
-|---|:---|
-| 1 seconds	| 64 MB |
-
-#### Deskripsi 
-Diberikan dua array integer A dan B. Buatlah array C, seluruh elemen C terdiri dari elemen array A, sedimikian sehingga C[i] elemen terkecil yang lebih besar dari B[i]. Jika tidak ada elemen A yang lebih besar dari B[i] maka C[i] = -1. Dapat dipastikan size array A, B, dan C sama. 
- 
-#### Format Masukan 
-Terdiri dari tiga baris. Baris pertama berisi sebuah bilangan bulat positif N yang menyatakan size array. Baris kedua berisi elemen array. Baris ketiga berisi elemen array B. 
- 
-#### Format Keluaran 
-N buah bilangan bulat yang menyatakan elemen-elemen array C, dipisahkan oleh spasi. 
- 
-#### Contoh Masukan 
-```c
-5 
-2 6 5 7 0 
-1 3 2 5 8 
-```
-
-#### Contoh Keluaran 
-```c
-2 5 5 6 -1 
-```
- 
-#### Batasan 
-1 ≤ N ≤ 104 \
-1 ≤ Ai, Bi ≤ 109 
+1 ≤ N ≤ 10^4 
 
 ## Kotak Kartu Elsi  
 | Time Limit | Memory Limit |
